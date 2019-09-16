@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ListApp/precache-manifest.84535de6f7fb7d07de4e336e3469606c.js"
+  "/precache-manifest.e8b78fbf3460f08572dadec6c39c33da.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "vuelist"});
+workbox.core.setCacheNameDetails({prefix: "listapp"});
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to

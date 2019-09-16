@@ -1,6 +1,6 @@
 {
-  "name": "vuelist",
-  "short_name": "vuelist",
+  "name": "List App",
+  "short_name": "List App",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
