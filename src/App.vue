@@ -1,7 +1,12 @@
 <template>
   <div id="app">
-    <AddElement @add-element="addElement"/>
-    <List :list="list" @del-element="delElement"/>
+    <b-navbar id="navbar" type="dark" variant="primary">
+      <b-navbar-brand>ListApp</b-navbar-brand> 
+    </b-navbar>
+    <div class="container px-0">
+      <AddElement class="px-2 col-md-10 col-lg-8 mx-auto mt-4" @add-element="addElement"/>
+      <List class="col-md-10 col-lg-8 mx-auto mt-4 px-0" :list="list" @del-element="delElement"/>
+    </div>
   </div>
 </template>
 
@@ -57,5 +62,9 @@ export default {
 * {
   margin: 0;
   padding: 0;
+}
+
+#navbar{
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
 }
 </style>

@@ -1,8 +1,8 @@
 <template>
-    <form @submit.prevent="sendElement">
-        <input v-model.trim="text" type="text" placeholder="Nuevo elemento">
-        <button type="submit">Agregar</button>
-    </form>
+    <b-form inline @submit.prevent="sendElement">
+        <b-input class="col border-primary" v-model.trim="text" type="text" placeholder="Nuevo elemento"></b-input>
+        <b-button class="ml-2" variant="primary" type="submit">Agregar</b-button>
+    </b-form>
 </template>
 
 <script>

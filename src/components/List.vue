@@ -1,8 +1,8 @@
 <template>
-  <ul>
+  <b-list-group>
     <ListElement v-for="element in list" :key="element.id" :element="element"
     @del-element="$emit('del-element', element.id)"/>
-  </ul>
+  </b-list-group>
 </template>
 
 <script>
